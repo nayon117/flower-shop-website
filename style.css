@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: gray;
+}
+.nav-title{
+    font-size: 25px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+
+}
+.menus{
+    list-style: none;
+    margin-right: 20px;
+}
+
+/* banner container styles start from here  */
+
