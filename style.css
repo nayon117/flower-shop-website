@@ -18,14 +18,14 @@
   margin: auto;
   padding: 15px 0px;
 }
-.special-color{
-    color: #e55473;
+.special-color {
+  color: #e55473;
 }
 .shared-img {
-    width: 200px;
-    height: 200px;
-    padding-top: 10px;
-  }
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+}
 .btn {
   border-radius: 8px;
   background: #e55473;
@@ -47,7 +47,7 @@
   align-items: center;
   gap: 635px;
   padding: 20px;
-  background: rgba(203, 60, 91, 0.1);
+  background: rgba(209, 41, 77, 0.1);
 }
 .nav-title {
   font-size: 25px;
@@ -146,18 +146,36 @@
 }
 
 /* social container styling  */
-.social-container{
-    text-align: center;
-    padding: 90px;
-    width: 80%;
-    margin: auto;
+.social-container {
+  text-align: center;
+  padding: 90px;
+  width: 80%;
+  margin: auto;
 }
-.social-container-boxes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+.social-container-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
-.social-container-box{
-    border-radius: 5px;
+.social-container-box {
+  border-radius: 5px;
+}
+
+/* subscriber container styles  */
+
+.subscriber-container {
+  background: url("./asset/Rectangle\ 9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.subscriber-container input {
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
 }
