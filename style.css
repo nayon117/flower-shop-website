@@ -110,3 +110,24 @@
 .img-3 {
   background: rgba(71, 125, 17, 0.15);
 }
+
+/* Product section design starts from here  */
+
+.product-section{
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+.product-container{
+    display: flex;
+    align-items: center;
+   gap: 30px;
+   padding-top: 50px;
+   padding-bottom:20px ;
+   
+}
+.product-img{
+    width: 200px;
+  height: 200px;
+  background: rgba(71, 125, 17, 0.15);
+}
