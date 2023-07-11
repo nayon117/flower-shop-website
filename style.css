@@ -45,7 +45,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 635px;
+  gap: 530px;
   padding: 20px;
   background: rgba(209, 41, 77, 0.1);
 }
@@ -178,4 +178,19 @@
   border-radius: 8px;
   padding: 10px 20px;
   border: none;
+}
+
+/* footer section styling  */
+footer{
+    text-align: center;
+    padding: 50px;
+    margin-top: 80px;
+    background: #111010;
+    color: white;
+}
+.footer-title{
+    color: white;
+}
+.footer-paragraph{
+    color: white;
 }
