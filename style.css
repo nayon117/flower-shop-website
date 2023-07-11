@@ -16,11 +16,16 @@
   line-height: 20px;
   width: 594px;
   margin: auto;
-  padding: 10px 0px;
+  padding: 15px 0px;
 }
 .special-color{
     color: #e55473;
 }
+.shared-img {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+  }
 .btn {
   border-radius: 8px;
   background: #e55473;
@@ -42,7 +47,7 @@
   align-items: center;
   gap: 635px;
   padding: 20px;
-  background: rgba(229, 84, 115, 0.1);
+  background: rgba(203, 60, 91, 0.1);
 }
 .nav-title {
   font-size: 25px;
@@ -66,7 +71,7 @@
   gap: 100px;
   align-items: center;
   background: rgba(229, 84, 115, 0.1);
-  padding: 50px;
+  padding: 50px 50px 0px;
 }
 .banner-title {
   color: #272727;
@@ -81,8 +86,8 @@
   width: 60%;
 }
 .banner-img {
-  width: 350px;
-  height: 550px;
+  width: 300px;
+  height: 500px;
 }
 
 /* featured containers designs starts from here  */
@@ -128,10 +133,6 @@
   padding-top: 50px;
   padding-bottom: 20px;
 }
-.product-img {
-  width: 200px;
-  height: 200px;
-}
 
 /* sale container designs start from here  */
 
@@ -142,4 +143,21 @@
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   padding: 30px;
+}
+
+/* social container styling  */
+.social-container{
+    text-align: center;
+    padding: 90px;
+    width: 80%;
+    margin: auto;
+}
+.social-container-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.social-container-box{
+    border-radius: 5px;
 }
