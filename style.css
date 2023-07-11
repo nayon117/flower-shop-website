@@ -1,26 +1,64 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    background-color: gray;
+/* navbar styles starts from here  */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 635px;
+  padding: 20px;
+  background: rgba(229, 84, 115, 0.1);
 }
-.nav-title{
-    font-size: 25px;
+.nav-title {
+  font-size: 25px;
 }
-.nav-menu{
-    display: flex;
-    align-items: center;
-
+.nav-menu {
+  display: flex;
+  align-items: center;
 }
-.menus{
-    list-style: none;
-    margin-right: 20px;
+.menus {
+  list-style: none;
+  margin-right: 20px;
+}
+.menus:hover{
+    color: #e55473;
 }
 
 /* banner container styles start from here  */
 
+.banner-container {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  background: rgba(229, 84, 115, 0.1);
+  padding: 50px;
+}
+.banner-title {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+.banner-img {
+  width: 350px;
+  height: 550px;
+}
+.btn {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  color: white;
+}
+.btn:hover{
+    color: #e55473;
+    background-color: white;
+}
